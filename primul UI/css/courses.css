@@ -1,0 +1,110 @@
+.welcome {
+    height: 40vh;
+}
+
+.welcome h1 {
+    text-align: center;
+}
+
+.courses h2, {
+    padding-top: var(--spacing-large);
+}
+
+.courses h2, .courses .main-paragraph {
+    text-align: center;
+}
+
+.courses h2, .courses .main-paragraph, .courses .courses-container {
+    margin-bottom: var(--spacing-large);
+}
+
+.courses .courses-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses .course-wrapper {
+    width:calc(100%/3);
+    padding-right: var(--spacing-small);
+    padding-left: var(--spacing-small);
+}
+
+.courses .main-paragraph {
+    padding-right: var(--spacing-small);
+    padding-left: var(--spacing-small);
+}
+
+.courses .course {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: var(--spacing-tiny);
+    border-radius: 5px;
+    margin-bottom: var(--spacing-medium);
+}
+
+.courses .presentation-class {
+    width: 100%;
+    height: auto;
+    margin-bottom: var(--spacing-large);
+}
+
+@media (max-width:992px) {
+    .courses .course-wrapper { 
+        width: 50%;
+    }
+}
+
+@media (max-width:768px) {
+    .courses .course-wrapper {
+        width: 100%;
+    }
+}
+
+.course .content {
+    padding:0 var(--spacing-small);
+}
+
+.course h3{
+    margin-bottom: var(--spacing-medium);
+    color: var(--text-primary);
+}
+
+.course .content .certification img {
+    height: auto;
+    width: 80px;
+    vertical-align: middle;
+    margin-left: var(--spacing-small);
+}
+
+.course .certification {
+    margin-bottom: var(--spacing-medium);
+}
+
+.course .details {
+    margin-bottom: var(--spacing-medium);
+}
+
+.course .duration {
+    margin-left: var(--spacing-small);
+}
+
+.course .hours {
+    margin-left: var(--spacing-small);
+}
+
+.course .date {
+    padding: 0;
+}
+
+.course .content a {
+    margin-bottom: var(--spacing-medium);
+    font-size: var(--fs-medium);
+    color: var(--text-white);
+    text-align: center;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+    width: 100px;
+    padding: var(--spacing-tiny);
+}
+
